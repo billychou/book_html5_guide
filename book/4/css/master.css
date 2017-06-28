@@ -1,0 +1,23 @@
+body {
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Georgin, Palatino, serif;
+}
+
+a {
+  background-colr: gray;
+  color: red;
+}
+
+span {
+  border: thin black solid;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font-family: "sans serif";
+}
