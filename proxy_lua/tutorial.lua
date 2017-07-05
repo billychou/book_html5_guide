@@ -59,7 +59,7 @@ print(type(3))
 string1 = "this is string1"
 string2 = "this is string2"
 
-html = [[ 
+html = [[
 <html>
 </html>
 ]]
@@ -80,7 +80,7 @@ key = 10
 a[key] = 22
 print(a)
 
-for k,v in pairs(a) do 
+for k,v in pairs(a) do
 	print(k.."-"..v)
 end
 
@@ -88,26 +88,26 @@ for k,v in pairs(tbl2) do
 	print(k..":"..v)
 end
 print(tbl2[2])
- 
 
 
--- function 
+
+-- function
 
 function factorial(n)
-	if n == 0 then 
+	if n == 0 then
 		return 1
-	else 
+	else
 		return n * factorial(n-1)
 	end
 end
 
 print(factorial(6))
- 
 
--- thread 
+
+-- thread
 --[[
 	lua中，最主要的线程是协同程序，它跟thread差不多，拥有自己独立的堆栈，局部变量和指令指针，可以跟其他协同程序共享全局变量和其他大部分东西。
-	
+
 --]]
 
 
@@ -122,15 +122,15 @@ print(factorial(6))
 -- 循环
 
 while(true)
-do 
-break 
+do
+break
 print("ok")
 end
 
 
 -- 0为true
 if (0)
-then 
+then
 	print("0为true")
 end
 
@@ -157,11 +157,11 @@ function add(num1, num2, functionPrint)
 	functionPrint(result)
 end
 myprint(10)
---myprint 
+--myprint
 add(2, 5, myprint)
 
 print(s, e)
- 
+
 function maximum (a)
 	local mi = 1
 	local m = a[mi]
@@ -195,4 +195,17 @@ for i=-2,10 do
 	print(i)
 end
 
+function list_iter(t)
+	local i = 0
+	local n = table.getn(t)
+	return function ()
+		i = i + 1
+		if i <= n then return t[i] end
+	end
+end
 
+t = {10, 20, 30}
+iter = list_iter(t)
+
+
+array = {}
