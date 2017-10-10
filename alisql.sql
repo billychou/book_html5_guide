@@ -1,6 +1,6 @@
   select
-  sum(case when content like "% 403 %" then 1 else 0 end) as status_403,
-  count(*) as total
+    sum(case when content like "% 403 %" then 1 else 0 end) as status_403,
+    count(*) as total
   from autonavi_aos_dw.s_tt_nginx_amap_aos_tt4
   where ds=20170702 and hh=05
   and (content like "%02/Jul/2017:05:11:%"
@@ -20,8 +20,4 @@
   or content like "%02/Jul/2017:05:25:%");
 
 
-  +------------+------------+
-  | status_403 | total      |
-  +------------+------------+
-  | 267704801  | 367674080  |
-  +------------+------------+
+  
