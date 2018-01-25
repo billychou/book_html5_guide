@@ -1,0 +1,43 @@
+---------------
+11.138.12.146,11.138.12.163 (2)
+---------------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda2              50G  5.5G   42G  12% /
+/dev/sda1            1007M   35M  922M   4% /boot
+tmpfs                  95G  612M   94G   1% /dev/shm
+/dev/sda5             168G  132G   37G  79% /home
+/dev/sdb1             1.8T   27G  1.8T   2% /disk1
+
+---------------
+11.134.196.110
+---------------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda2              50G  6.0G   41G  13% /
+/dev/sda1             247M   23M  212M  10% /boot
+tmpfs                  95G  612M   94G   1% /dev/shm
+/dev/sda5             169G  4.4G  165G   3% /home
+/dev/sdb1             1.8T   27G  1.8T   2% /disk1
+
+
+---------------
+11.185.146.161
+---------------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda2              50G  6.3G   41G  14% /
+/dev/sda1             247M   23M  212M  10% /boot
+tmpfs                 127G  611M  126G   1% /dev/shm
+/dev/sda5             169G  131G   39G  78% /home
+/dev/dfa1             1.5T  119G  1.4T   8% /disk1
+
+---------------
+11.138.12.145
+---------------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda2              50G  5.5G   42G  12% /
+/dev/sda1            1007M   35M  922M   4% /boot
+tmpfs                  95G  612M   94G   1% /dev/shm
+/dev/sda5             168G  131G   37G  78% /home
+/dev/sdb1             1.8T   27G  1.8T   2% /disk1
+
+
+====
